@@ -71,7 +71,7 @@ int main()			/* God created */
 					memory=jealousy;					/* the light	*/
 				} else if (memory->l==NULL){		/*  from */
 					memory->l=jealousy;jealousy->l=NULL;	/* the darkness. */
-					jealousy->r=memory;memory=jealousy; /* God called the light */
+					jealousy->r=memory;memory=jealousy; /* God called */
 				} else {									/* the light */
 					certainty=memory;memory=memory->l;  /* "day",*/
 				}
