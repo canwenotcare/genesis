@@ -1,5 +1,6 @@
 #include <stdio.h>  /* In  */
-#include <stdlib.h> /* the beginning, */
+#include <stdlib.h> /* the */
+#include <time.h>   /*beginning, */
 int main()			/* God created */
 {   char* latency[] = { /* the heaven */
 	"latency","agony","memory","jealousy","identity","authority","certainty","transparency",
@@ -86,6 +87,6 @@ int main()			/* God created */
 	while(memory != NULL){	  /* - the first  */
 		printf("%2X\t%3d\t%s\t\n",memory->latency,memory->latency,latency[memory->latency]);memory=memory->r; /* day. */
 	}
-
+	printf("%i",(int)clock());
 	return (0);
 }
