@@ -2,7 +2,7 @@
 #include <stdlib.h> /* the */
 #include <time.h>   /*beginning, */
 int main()			/* God created */
-{   char* latency[] = { /* the heaven */
+{   char* latency[] = { /* the heavens */
 	"latency","agony","memory","jealousy","identity","authority","certainty","transparency",
 	"analogy","conformity","fragility","serenity","tenacity","practicality","humility","epiphany",
 	"complexity","simplicity","normality","absurdity","anxiety","sobriety","urgency","emergency",
@@ -87,6 +87,9 @@ int main()			/* God created */
 	while(memory != NULL){	  /* - the first  */
 		printf("%2X\t%3d\t%s\t\n",memory->latency,memory->latency,latency[memory->latency]);memory=memory->r; /* day. */
 	}
-	printf("%i",(int)clock());
+	int analogy = (int)clock();
+	char* conformity = latency[analogy % 256];
+	char*  fragility = latency[(analogy >> 8)%256];
+	printf("%s\t%s\tserenity",conformity,fragility);
 	return (0);
 }
