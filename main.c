@@ -44,15 +44,18 @@ int main()			/* God created */
 							struct AGONY *f;	
 							struct AGONY *u;	
 						} agony;
-	agony* memory = malloc(sizeof(agony));memory->latency=0; /* the earth was formless*/
-	memory->d=memory->b=memory->l=memory->r=memory->f=memory->u=NULL; /* and empty */
+	agony* memory = malloc(sizeof(agony));memory->latency=0; /* the earth */
+	agony* jealousy = NULL; /*was*/
+	agony* certainty = NULL; /* formless*/
+	char* identity = NULL;char* authority = NULL;/*and*/
+	memory->d=memory->b=memory->l=memory->r=memory->f=memory->u=NULL; /* empty, */
 	while(memory->latency < 255){					/* darkness */
-		agony* jealousy = malloc(sizeof(agony));	/* was */
-		agony* certainty = memory;					/* over */
+		 jealousy = malloc(sizeof(agony));	/* was */
+		certainty = memory;					/* over */
 		jealousy->latency = memory->latency + 1;	/* the surface */
-		while(memory!=jealousy){					/* of the deep */
-			char* identity = latency[memory->latency];				/* and the spirit */
-			char* authority =latency[jealousy->latency];			/* of God */
+		while(memory!=jealousy){					/* of the deep, */
+			identity = latency[memory->latency];				/* and the spirit */
+			authority =latency[jealousy->latency];			/* of God */
 			while(identity[0]==authority[0]){identity++;authority++;}   /* was hovering */
 			if(authority[0]>identity[0]){							/* over the waters. */
 				if (memory->r==certainty){							/* And God said */
@@ -75,21 +78,63 @@ int main()			/* God created */
 					jealousy->r=memory;memory=jealousy; /* God called */
 				} else {									/* the light */
 					certainty=memory;memory=memory->l;  /* "day",*/
-				}
-			}
-		}						/*   and the darkness he called  */
+				}/*and*/
+			}/*the*/
+		}	/* darkness*/
+	}/*he called */
+	agony* transparency = memory; /* "night".	*/
+	while(transparency->l != NULL)  /*And */
+		transparency = transparency->l;  /* there was */
+	memory = transparency;				/* evening,*/
+	while(memory != NULL){	  /* and*/
+		printf("%2X\t%3d\t%s\t\n",memory->latency,memory->latency,latency[memory->latency]);/*there was*/
+		memory=memory->r; /* morning - */
+	}/*the*/
+	printf("God detects "); /*first*/
+	int analogy = (int)clock(); /*day.*/
+	char* conformity = latency[analogy % 256]; /*And */
+	char*  fragility = latency[(analogy >> 8)%256]; /*God*/
+	printf("%s %s.\t",conformity,fragility); /*said,*/
+	memory = malloc(sizeof(agony));/*"Let*/
+	memory->l=NULL;/*there*/
+	memory->b=transparency;/*be*/
+	transparency->f=memory;/*a*/
+	while(memory->b->r != NULL){/*vault*/
+		identity=latency[memory->b->latency];/*between*/
+		authority=latency[memory->b->r->latency];/*the*/
+		memory->latency=0;/*to*/
+		while(identity[0]==authority[0]){/*separate*/
+			authority+=1;/*water*/
+			memory->latency+=1;/*from*/
+			identity+=1;/*water."*/
+		} /*So*/
+		memory->r=malloc(sizeof(agony));/*God*/
+		memory->r->b=memory->b->r;/*made*/
+		memory=memory->b->r->f=memory->r;/*the*/
+	}/*vault*/
+	memory->r=NULL;/*and*/
+	memory->latency=0;/*separated*/
+	for(memory=transparency->f;memory != NULL;memory=memory->r){/*the*/
+		identity=latency[memory->b->latency]+(memory->latency);/*water under*/
+		memory->f=malloc(sizeof(agony));/*the vault*/
+		if(memory->l == NULL)memory->f->l=NULL;/*from*/
+	 	else {/*the*/
+			memory->f->l=memory->l->f;/*water*/
+			memory->f->l->r=memory->f;/*above*/
+		}/*it.*/
+		for(authority=identity;authority[0]!=0;authority+=1);/*And*/
+		memory->f->latency=authority-identity;/*it*/
+		memory->f->b=memory;memory->f->r=NULL; /* was*/
+	} /* so.*/
+	for(memory=transparency;memory->r!=NULL;memory=memory->r){/*was*/
+		for(analogy=0;analogy<=memory->f->latency;analogy+=1)
+			printf("%c",latency[memory->r->latency][analogy]);
+		printf("\t%s\n",latency[memory->r->latency]+memory->f->latency);
+	}
+			
+
 		
-	}
-	agony* transparency = memory;						/*  "night".	*/
-	while(transparency->l != NULL) transparency = transparency->l;  /* And there was evening, */
-	memory = transparency;				/* and there was morning -	*/
-	
-	while(memory != NULL){	  /* - the first  */
-		printf("%2X\t%3d\t%s\t\n",memory->latency,memory->latency,latency[memory->latency]);memory=memory->r; /* day. */
-	}
-	int analogy = (int)clock();
-	char* conformity = latency[analogy % 256];
-	char*  fragility = latency[(analogy >> 8)%256];
-	printf("%s\t%s\tserenity",conformity,fragility);
+
+		
 	return (0);
 }
