@@ -45,10 +45,10 @@ int main()			/* God created */
 							struct AGONY *u;	
 						} agony;
 	agony* memory = malloc(sizeof(agony));memory->latency=0; /* the earth */
-	agony* jealousy = NULL; /*was*/
-	agony* certainty = NULL; /* formless*/
-	char* identity = NULL;char* authority = NULL;/*and*/
-	memory->d=memory->b=memory->l=memory->r=memory->f=memory->u=NULL; /* empty, */
+	agony* jealousy; /*was*/
+	agony* certainty; /* formless*/
+	char* identity = latency[0];/*and*/
+	char* authority = latency[0]; /* empty, */
 	while(memory->latency < 255){					/* darkness */
 		 jealousy = malloc(sizeof(agony));	/* was */
 		certainty = memory;					/* over */
@@ -85,56 +85,55 @@ int main()			/* God created */
 	agony* transparency = memory; /* "night".	*/
 	while(transparency->l != NULL)  /*And */
 		transparency = transparency->l;  /* there was */
-	memory = transparency;				/* evening,*/
+	certainty = memory = transparency;				/* evening,*/
 	while(memory != NULL){	  /* and*/
-		printf("%2X\t%3d\t%s\t\n",memory->latency,memory->latency,latency[memory->latency]);/*there was*/
-		memory=memory->r; /* morning - */
-	}/*the*/
-	printf("God detects "); /*first*/
+		printf("%2X\t%3d\t%s\t\n",memory->latency,memory->latency,latency[memory->latency]);/*there*/
+		memory->f=NULL;/*was*/
+		certainty=memory;memory=memory->r; /* morning - */
+	}transparency->l=certainty;/*the*/
+	certainty->r=transparency;/*first*/
 	int analogy = (int)clock(); /*day.*/
-	char* conformity = latency[analogy % 256]; /*And */
-	char*  fragility = latency[(analogy >> 8)%256]; /*God*/
-	printf("%s %s.\t",conformity,fragility); /*said,*/
-	memory = malloc(sizeof(agony));/*"Let*/
-	memory->l=NULL;/*there*/
-	memory->b=transparency;/*be*/
-	transparency->f=memory;/*a*/
-	while(memory->b->r != NULL){/*vault*/
-		identity=latency[memory->b->latency];/*between*/
-		authority=latency[memory->b->r->latency];/*the*/
-		memory->latency=0;/*to*/
+	char* conformity = latency[analogy % 256]; /*And God said,*/
+	char*  fragility = latency[(analogy >> 8)%256]; /*Let there be*/
+	for(memory=transparency;memory->f==NULL;memory=memory->r){/*a*/
+		memory->f=malloc(sizeof(agony));/*vault*/
+	    identity=latency[memory->l->latency];/*between*/
+		authority=latency[memory->latency];/*the waters*/
+		memory->f->f=NULL; memory->f->b=memory;memory->f->latency=1;/*to*/
 		while(identity[0]==authority[0]){/*separate*/
 			authority+=1;/*water*/
-			memory->latency+=1;/*from*/
+			memory->f->latency+=1;/*from*/
 			identity+=1;/*water."*/
 		} /*So*/
-		memory->r=malloc(sizeof(agony));/*God*/
-		memory->r->b=memory->b->r;/*made*/
-		memory=memory->b->r->f=memory->r;/*the*/
-	}/*vault*/
-	memory->r=NULL;/*and*/
-	memory->latency=0;/*separated*/
-	for(memory=transparency->f;memory != NULL;memory=memory->r){/*the*/
-		identity=latency[memory->b->latency]+(memory->latency);/*water under*/
-		memory->f=malloc(sizeof(agony));/*the vault*/
-		if(memory->l == NULL)memory->f->l=NULL;/*from*/
-	 	else {/*the*/
-			memory->f->l=memory->l->f;/*water*/
-			memory->f->l->r=memory->f;/*above*/
-		}/*it.*/
-		for(authority=identity;authority[0]!=0;authority+=1);/*And*/
-		memory->f->latency=authority-identity;/*it*/
-		memory->f->b=memory;memory->f->r=NULL; /* was*/
-	} /* so.*/
-	for(memory=transparency;memory->r!=NULL;memory=memory->r){/*was*/
-		for(analogy=0;analogy<=memory->f->latency;analogy+=1)
-			printf("%c",latency[memory->r->latency][analogy]);
-		printf("\t%s\n",latency[memory->r->latency]+memory->f->latency);
-	}
-			
-
-		
-
-		
+		if(memory->l->f!=NULL){/*God*/
+			memory->f->l=memory->l->f;/*made*/
+			memory->l->f->r=memory->f;/*the*/
+		}/*vault*/
+	} /*and*/
+	memory->l->f->r=memory->f; /*separated*/
+	memory->f->l=memory->l->f;/*the*/
+	char* serenity[256];/* water*/
+	for(memory=transparency->f;memory->latency!=0;memory=memory->r){/*under*/
+		serenity[memory->b->latency]=malloc(memory->latency+1);/*the*/
+		identity=serenity[memory->b->latency]+(memory->latency);/*vault*/
+		authority=latency[memory->b->latency]+(memory->latency);/*from*/
+		for(identity[0]=0;memory->latency>0;memory->latency-=1){/*the*/
+				identity-=1;authority-=1;/*waters*/
+				identity[0]=authority[0];/*above*/
+		} /*it.*/
+	} /*And*/
+	for(memory=transparency;memory->f->latency==0;memory=memory->r){/*it*/
+		for(authority=serenity[memory->latency];/*was*/
+				authority[0]!=0;authority+=1){/*so.*/
+				printf("%c",authority[0]); /*God*/
+				memory->f->latency+=1;/*called*/
+		}/*the*/
+		printf("\t0x%2x\t%3i\t%s\n",memory->latency,memory->latency,latency[memory->latency]);/*vault*/
+	}/*"sky."*/
+	analogy = (int)clock() - analogy; /*And there was evening, */
+	printf("God detects %s %s.\n",conformity,fragility);/* and there was morning - */
+	int tenacity = latency[analogy % 256]; /*the  */
+	int practicality = latency[(analogy >> 8)%256]; /*second*/
+	printf("God suggests %s %s.\n ",tenacity,practicality);/*day.*/
 	return (0);
 }
