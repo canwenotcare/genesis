@@ -87,8 +87,7 @@ int main()			/* God created */
 		transparency = transparency->l;  /* there was */
 	certainty = memory = transparency;				/* evening,*/
 	while(memory != NULL){	  /* and*/
-		printf("%2X\t%3d\t%s\t\n",memory->latency,memory->latency,latency[memory->latency]);/*there*/
-		memory->f=NULL;/*was*/
+		memory->f=NULL;/*there was*/
 		certainty=memory;memory=memory->r; /* morning - */
 	}transparency->l=certainty;/*the*/
 	certainty->r=transparency;/*first*/
@@ -131,9 +130,9 @@ int main()			/* God created */
 		printf("\t0x%2x\t%3i\t%s\n",memory->latency,memory->latency,latency[memory->latency]);/*vault*/
 	}/*"sky."*/
 	analogy = (int)clock() - analogy; /*And there was evening, */
-	printf("God detects %s %s.\n",conformity,fragility);/* and there was morning - */
+	printf("\nGod detects %s %s.\n",conformity,fragility);/* and there was morning - */
 	int tenacity = latency[analogy % 256]; /*the  */
 	int practicality = latency[(analogy >> 8)%256]; /*second*/
-	printf("God suggests %s %s.\n ",tenacity,practicality);/*day.*/
+	printf("God suggests %s %s.\n  ",tenacity,practicality);/*day.*/
 	return (0);
 }
