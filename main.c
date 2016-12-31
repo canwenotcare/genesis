@@ -124,10 +124,10 @@ int main()			/* God created */
 	for(memory=transparency;memory->f->latency==0;memory=memory->r){/*it*/
 		for(authority=serenity[memory->latency];/*was*/
 				authority[0]!=0;authority+=1){/*so.*/
-				printf("%c",authority[0]); /*God*/
+				/*printf("%c",authority[0]); /*God*/
 				memory->f->latency+=1;/*called*/
 		}/*the*/
-		printf("\t0x%2x\t%3i\t%s\n",memory->latency,memory->latency,latency[memory->latency]);/*vault*/
+	/*	printf("\t0x%2x\t%3i\t%s\n",memory->latency,memory->latency,latency[memory->latency]);/*vault*/
 	}/*"sky."*/
 	analogy = (int)clock() - analogy; /*And there was evening, */
 	printf("\nRealGod detects %s %s.\n",conformity,fragility);/* and there was morning - */
