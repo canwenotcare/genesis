@@ -23,7 +23,7 @@ main.o: /home/cwnc/init/main.c /usr/include/stdc-predef.h \
  /usr/include/x86_64-linux-gnu/bits/time.h \
  /usr/include/x86_64-linux-gnu/sys/sysmacros.h \
  /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h /usr/include/alloca.h \
- /usr/include/x86_64-linux-gnu/bits/stdlib-float.h
+ /usr/include/x86_64-linux-gnu/bits/stdlib-float.h /usr/include/xlocale.h
 
 /usr/include/stdc-predef.h:
 
@@ -90,3 +90,5 @@ main.o: /home/cwnc/init/main.c /usr/include/stdc-predef.h \
 /usr/include/alloca.h:
 
 /usr/include/x86_64-linux-gnu/bits/stdlib-float.h:
+
+/usr/include/xlocale.h:

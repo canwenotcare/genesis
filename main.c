@@ -130,9 +130,9 @@ int main()			/* God created */
 	printf("\t0x%2x\t%3i\t%s\n",memory->latency,memory->latency,latency[memory->latency]);/*vault*/
 	}/*"sky."*/
 	analogy = (int)clock() - analogy; /*And there was evening, */
-	printf("\nRealGod detects %s %s.\n",conformity,fragility);/* and there was morning - */
+	printf("\nHello, world!\n\nTwo words: %s %s.\n",conformity,fragility);/* and there was morning - */
 	int tenacity = latency[analogy % 256]; /*the  */
 	int practicality = latency[(analogy >> 8)%256]; /*second*/
-	printf("RealGod suggests %s %s.\n\n\n\n\n\n\n\n\n\n\n\n\n ",tenacity,practicality);/*day.*/
+	printf("\nTwo better words: %s %s.\n\nLove,\n\nmain.c\n\n\n\n\n\n\n\n\n ",tenacity,practicality);/*day.*/
 	return (0);
 }
