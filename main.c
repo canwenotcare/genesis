@@ -124,15 +124,47 @@ int main()			/* God created */
 	for(memory=transparency;memory->f->latency==0;memory=memory->r){/*it*/
 		for(authority=serenity[memory->latency];/*was*/
 				authority[0]!=0;authority+=1){/*so.*/
-		/*		printf("%c",authority[0]); /*God*/
-				memory->f->latency+=1;/*called*/
-		}/*the*/
-/*	printf("\t0x%2x\t%3i\t%s\n",memory->latency,memory->latency,latency[memory->latency]);/*vault*/
+				memory->f->latency+=1;/*God called*/
+		}/*the vault*/
 	}/*"sky."*/
 	analogy = (int)clock() - analogy; /*And there was evening, */
 	printf("\nHello, world!\n\nTwo words: %s %s.\n",conformity,fragility);/* and there was morning - */
-	int tenacity = latency[analogy % 256]; /*the  */
-	int practicality = latency[(analogy >> 8)%256]; /*second*/
-	printf("\nTwo better words: %s %s.\n\nLove,\n\nmain.c\n\n\n\n\n\n\n\n\n ",tenacity,practicality);/*day.*/
+	int tenacity = analogy % 256;identity=latency[tenacity]; /*the  */
+	int practicality = (analogy >> 8)%256;authority=latency[practicality]; /*second*/
+	printf("\nTwo better words: %s %s.\n\nLove,\n\nmain.c\n",identity,authority);/*day.*/
+	char* humility[256]; /*And God said*/
+	for(memory=transparency;/* "Let*/
+			memory->f->f==NULL;/* the*/
+			memory=memory->r){/*water*/
+		memory->f->f=malloc(sizeof(agony));/*under*/
+		jealousy=memory->f->f;jealousy->f=NULL;/*the*/
+		jealousy->b=memory->f;jealousy->l=memory->f->l->f;/*sky*/
+		if(jealousy->l!=NULL)jealousy->l->r=jealousy;jealousy->latency=0;/* be*/
+		for(identity=latency[memory->latency]+(memory->f->latency);/*gathered*/
+				identity[0]!=0;identity+=1)/*to*/
+			jealousy->latency+=1;/*one*/
+		humility[memory->latency]=malloc(jealousy->latency);/*place*/
+		identity=humility[memory->latency];/*and*/
+		for(authority=latency[memory->latency]+(memory->f->latency);/*let*/
+			authority[0]!=0;authority+=1){/*dry*/
+			identity[0]=authority[0];identity+=1;/*ground*/
+		}/*appear."*/
+		identity[0]=0;/*And*/
+	}/*it*/
+	memory->f->f->l=memory->l->f->f;/*was*/
+	memory->l->f->f->r=memory->f->f;/*so.*/
+	typedef struct { int serenity;
+								int tenacity;
+								int practicality;
+								int humility;
+								} epiphany;
+	typedef struct COMPLEXITY {
+								COMPLEXITY* u;
+								COMPLEXITY* i;
+								epiphany* simplicity;
+								COMPLEXITY* o;
+								COMPLEXITY* d;
+								} complexity;
+	complexity* simplicity = malloc(sizeof(complexity));
 	return (0);
 }
