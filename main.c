@@ -153,18 +153,80 @@ int main()			/* God created */
 	}/*it*/
 	memory->f->f->l=memory->l->f->f;/*was*/
 	memory->l->f->f->r=memory->f->f;/*so.*/
-	typedef struct { int serenity;
-								int tenacity;
-								int practicality;
+	typedef struct {int latency;
+								int serenity;
 								int humility;
 								} epiphany;
 	typedef struct COMPLEXITY {
-								COMPLEXITY* u;
-								COMPLEXITY* i;
 								epiphany* simplicity;
-								COMPLEXITY* o;
-								COMPLEXITY* d;
+								struct COMPLEXITY* a;
+								struct COMPLEXITY* o;
+								struct COMPLEXITY* d;
 								} complexity;
-	complexity* simplicity = malloc(sizeof(complexity));
-	return (0);
+	complexity* simplicity= NULL;
+	complexity* normality[256];
+	complexity* absurdity = NULL;
+	epiphany* anxiety=NULL;
+	for(memory=transparency;memory->f->f->f==NULL;memory=memory->r){
+		absurdity=normality[memory->latency] = malloc(sizeof(complexity));
+		anxiety=absurdity->simplicity=malloc(sizeof(epiphany));
+		anxiety->latency=memory->latency;
+		anxiety->serenity=memory->f->latency;
+		anxiety->humility=memory->f->f->latency;
+		jealousy=memory->f->f->f=malloc(sizeof(agony));
+		jealousy->latency = (( (256 + anxiety->serenity) - anxiety->humility)*256*256)+256*(anxiety->serenity > anxiety->humility ? anxiety->humility : anxiety->serenity)+anxiety->latency; 
+		jealousy->b=memory->f->f;jealousy->l=jealousy->b->l->f;
+		if(jealousy->l!=NULL)jealousy->l->r=jealousy;
+	}memory->f->f->f->l=memory->l->f->f->f;
+	memory->l->f->f->f->r=memory->f->f->f;
+	memory=transparency;
+	int sobriety=0;
+	do{
+		if(memory->f->f->f->latency > sobriety){
+			jealousy=memory;
+			sobriety=memory->f->f->f->latency;
+		} memory=memory->r;
+	} while(memory!=transparency);
+	simplicity=normality[jealousy->latency];
+	anxiety=simplicity->simplicity;
+	int urgency=sobriety;
+	do{
+		sobriety=0;
+		simplicity->a=simplicity->o=simplicity->d=NULL;
+		memory=transparency;
+		do{
+			if(memory->f->f->f->latency < urgency)
+			if(memory->f->f->f->latency > sobriety){
+				sobriety=memory->f->f->f->latency;
+				absurdity=normality[memory->latency];
+			} memory=memory->r;
+		}while(memory!=transparency);
+		if(sobriety>0){
+			if(urgency-sobriety<=256)
+				simplicity=simplicity->a=absurdity;
+			else if(urgency-sobriety<=256*256)
+				simplicity=simplicity->o=absurdity;
+			else simplicity=simplicity->d=absurdity;
+		}
+		urgency=sobriety;
+	}while(urgency>0);
+simplicity=normality[anxiety->latency];
+do{
+	printf("%s ",latency[simplicity->simplicity->latency]);
+	if(simplicity->a!=NULL){
+		simplicity->o=simplicity->d=simplicity;
+		absurdity=simplicity=simplicity->a;
+	} else if(simplicity->o!=NULL){
+		simplicity->a=simplicity->d=simplicity;
+		absurdity=simplicity=simplicity->o;
+		printf("\n\nOUTWARD:\n\n");
+	} else if(simplicity->d!=NULL){
+		simplicity->a=simplicity->o=NULL;
+		absurdity=simplicity=simplicity->d;
+		printf("\n\nDOWN:\n\n");
+	} else simplicity=NULL;
+} while(simplicity!=NULL);
+simplicity=normality[anxiety->latency];
+
+return (0);
 }
