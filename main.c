@@ -202,11 +202,15 @@ int main()			/* God created */
 			} memory=memory->r;
 		}while(memory!=transparency);
 		if(sobriety>0){
-			if(urgency-sobriety<=256)
-				simplicity=simplicity->a=absurdity;
-			else if(urgency-sobriety<=256*256)
-				simplicity=simplicity->o=absurdity;
-			else simplicity=simplicity->d=absurdity;
+			if(urgency-(urgency%(256*256))>sobriety-(sobriety%(256*256))){
+					if(urgency-(urgency%(256*256*256))>sobriety-(sobriety%(256*256*256))){
+						simplicity=simplicity->d=absurdity;
+					} else {
+					simplicity=simplicity->o=absurdity;
+					}
+			} else {
+			simplicity=simplicity->a=absurdity;
+			}
 		}
 		urgency=sobriety;
 	}while(urgency>0);
